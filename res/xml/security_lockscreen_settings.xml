@@ -92,6 +92,18 @@
             android:defaultValue="25"
             settings:units="dp"/>
 
+    <PreferenceCategory
+        android:key="lockscreen_visualizer_options"
+        android:title="@string/lockscreen_visualizer_title" >
+
+        <com.fusion.support.preferences.SecureSettingSwitchPreference
+            android:key="lockscreen_visualizer_enabled"
+            android:title="@string/lockscreen_visualizer_enable"
+            android:summary="@string/lockscreen_visualizer_enable_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
         <Preference
             android:key="ambient_display_double_tap"
             android:title="@string/ambient_display_title"
