@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright 2020 Project 404
      Copyright 2020 Cipher OS Project
@@ -23,6 +23,10 @@
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
+    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
 
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
