@@ -77,33 +77,6 @@
             settings:searchable="false"
             settings:controller="com.android.settings.gestures.TapScreenGesturePreferenceController" />
 
-        <com.fusion.support.preferences.SystemSettingSwitchPreference
-            android:key="show_lockscreen_media_art"
-            android:title="@string/show_lockscreen_media_art_title"
-            android:defaultValue="true" />
-
-        <com.fusion.support.preferences.SystemSettingSeekBarPreference
-            android:key="lockscreen_media_blur"
-            android:title="@string/lockscreen_media_blur_title"
-            android:dependency="show_lockscreen_media_art"
-            settings:allowEditText="true"
-            android:max="25"
-            android:min="0"
-            android:defaultValue="25"
-            settings:units="dp"/>
-
-    <PreferenceCategory
-        android:key="lockscreen_visualizer_options"
-        android:title="@string/lockscreen_visualizer_title" >
-
-        <Preference
-            android:key="lockscreen_visualizer"
-            android:fragment="com.android.settings.fusion.fragments.Visualizer"
-            android:title="@string/lockscreen_visualizer_enable"
-            android:summary="@string/lockscreen_visualizer_enable_summary" />
-
-    </PreferenceCategory>
-
         <Preference
             android:key="ambient_display_double_tap"
             android:title="@string/ambient_display_title"
